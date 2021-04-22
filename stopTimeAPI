@@ -1,0 +1,6 @@
+input: stop_times.txt
+input should be something like "23:22:12"
+class Times()
+takes in array List
+protected static Comparator<stopInformation> IDsort = new Comparator<stopInformation>() //sorts by trip id
+public static List<stopInformation> getStopsInfo(String arrivalTime) { //returns by trip id all the stops with the specific time 
