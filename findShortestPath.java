@@ -172,4 +172,12 @@ public class findShortestPath {
 		}
 
 	}
+	//Sample Mean for stopIds 1817 and 1819
+	public static void main(String[] args) throws FileNotFoundException {
+		shortestPath path=new shortestPath();
+		System.out.println("Stops 1817 and 1819");
+		System.out.println("Number of stops between 1817 and 1819=" +path.numberOfStops(1817,1819));
+		System.out.println(path.stopsAlongTheWay(1817, 1819));
+		
+	}
 }
