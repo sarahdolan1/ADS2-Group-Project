@@ -25,13 +25,13 @@ public class findShortestPath {
 		}
 		return numberOfStops;
 	}
-	//TODO finish class
 	public String[] stopsAlongTheWay(int stop1,int stop2) {
-		String[] test=new String[0];
+		
 		Dijkstra path=new Dijkstra(inputGraph,stop1,stop2);
 		graphEdges=path.getShortestPath();
+		String[] test=new String[graphEdges.size()];
 		for(int i=0;i<graphEdges.size();i++) {
-			System.out.println(graphEdges.get(i).toString());
+			test[i]=(graphEdges.get(i).toString());
 		}
 		
 		return test;
@@ -172,12 +172,17 @@ public class findShortestPath {
 		}
 
 	}
-	//Sample Mean for stopIds 1817 and 1819
+	
 	public static void main(String[] args) throws FileNotFoundException {
 		shortestPath path=new shortestPath();
 		System.out.println("Stops 1817 and 1819");
 		System.out.println("Number of stops between 1817 and 1819=" +path.numberOfStops(1817,1819));
-		System.out.println(path.stopsAlongTheWay(1817, 1819));
+		String test[]=path.stopsAlongTheWay(1817,1819);
+		
+		for(int i=0;i<test.length;i++) {
+			System.out.println(test[i]);
+		}
+		
 		
 	}
 }
