@@ -13,7 +13,7 @@ Sean Langan-19335305
 https://github.com/sarahdolan1/ADS2-Group-Project.git
 
 # Team members and their contributions:
-Sean Langan : Implemented part 1 & worked on the document .
-Denisa Costinas: Implemented part 2 & worked on the document.
-Sarah Dolan : Implemented part 3 & worked on the document.
-Keira Gatt : Implemented part 4 & worked on the document.
+Sean Langan : Implemented part 1 & worked on the document . \
+Denisa Costinas: Implemented part 2 & worked on the document. \
+Sarah Dolan : Implemented part 3 & worked on the document. \
+Keira Gatt : Implemented part 4 & worked on the document. \
