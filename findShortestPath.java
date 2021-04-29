@@ -28,6 +28,12 @@ public class findShortestPath {
 	//TODO finish class
 	public String[] stopsAlongTheWay(int stop1,int stop2) {
 		String[] test=new String[0];
+		Dijkstra path=new Dijkstra(inputGraph,stop1,stop2);
+		graphEdges=path.getShortestPath();
+		for(int i=0;i<graphEdges.size();i++) {
+			System.out.println(graphEdges.get(i).toString());
+		}
+		
 		return test;
 
 	}
