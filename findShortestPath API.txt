@@ -1,9 +1,0 @@
-﻿public class findShortestPath()
--------------------------------------------------------------------------
-findShortestPath( )                        empty constructor to create find shortest path object
-
-
-Int numberOfStops(String stop1,String stop2)        returns number of stops between 2 stops        
-
-
-String[] stopsAlongTheWay(String stop1,String stop2)    returns a string array of the stops along the shortest path
