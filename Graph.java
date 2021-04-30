@@ -1,9 +1,9 @@
+import java.util.Scanner;
 import java.util.Arrays;
 import java.util.ArrayList;
-import java.util.Scanner;
-import java.util.Collections;
-import java.io.FileNotFoundException;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Collections;
 
 /**
  * Class to create a graph
@@ -303,6 +303,10 @@ class Edge {
 		this.dst = dst;
 		this.weight = weight;
 	}
+	public String toString()
+    {
+        return "("+this.src.label+","+this.dst.label+","+this.weight+")";
+    }
 
 
 }
