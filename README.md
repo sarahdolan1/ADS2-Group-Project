@@ -16,4 +16,4 @@ https://github.com/sarahdolan1/ADS2-Group-Project.git
 Sean Langan : Implemented part 1 & worked on the document . \
 Denisa Costinas: Implemented part 2 & worked on the document. \
 Sarah Dolan : Implemented part 3 & worked on the document. \
-Keira Gatt : Implemented part 4 & worked on the document. 
+Keira Gatt : Implemented part 4, worked on the document & produced video demo. 
